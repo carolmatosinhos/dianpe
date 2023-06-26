@@ -1,6 +1,6 @@
 .conteudo {
   width: 100%;
-  height: 150px;
+  height: 125px;
   background-color: white;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .button-container {
-  margin-top: -3%;
+  margin-top: -7%;
 }
 
 @media (max-width: 425px) {
@@ -45,5 +45,12 @@
     margin-top: -5px !important;
   }
 
+  .button-container {
+    flex-direction: column-reverse;
+  }
 
+  .button-container button {
+    width: 100%;
+    margin-top: 10px;
+  }
 }

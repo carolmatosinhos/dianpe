@@ -5,8 +5,14 @@
 }
 
 .title {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   color: #000000;
   font-weight: 400;
   font-size: 25px;
+}
+
+@media (max-width: 425px) {
+  .title {
+    font-size: 20px;
+  }
 }
