@@ -11,9 +11,35 @@
   font-size: 25px;
 }
 
+.linha {
+  height: 2px;
+  width: 232px;
+  background-color: #f09139;
+}
+.linha-1 {
+  margin-right: 69px;
+}
+
+.linha-2 {
+  margin-left: 69px;
+}
 
 @media (max-width: 425px) {
   .title {
     font-size: 20px;
+  }
+
+  .linha {
+    height: 2px;
+    width: 110px;
+    background-color: #f09139;
+  }
+
+  .linha-1 {
+    margin-right: 15px;
+  }
+
+  .linha-2 {
+    margin-left: 15px;
   }
 }
